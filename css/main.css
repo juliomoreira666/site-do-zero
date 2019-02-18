@@ -174,7 +174,11 @@ li.slick-active button {
     height: auto;
 }
 .bloco-imagem {
+    height: 300px;
     border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
 }
 .bloco-imagem b, p {
     text-align: left;
@@ -189,4 +193,14 @@ h3 {
 
 .bloco-imagens-texto {
     background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
